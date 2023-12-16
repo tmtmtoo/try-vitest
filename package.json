@@ -6,9 +6,12 @@
   "main": "server.js",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "vitest"
   },
-  "dependencies": {
-    "express": "^4.16.1"
+  "devDependencies": {
+    "@types/node": "18",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
   }
 }
