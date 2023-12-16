@@ -16,7 +16,8 @@
 			"settings": {},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
-				"zixuanchen.vitest-explorer"
+				"zixuanchen.vitest-explorer",
+				"biomejs.biome"
 			]
 		}
 	},
