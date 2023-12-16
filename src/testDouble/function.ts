@@ -1,3 +1,3 @@
-const now = () => new Date()
+import { now } from "./innerFunction";
 
-export const nowIsoDateString = () => now().toISOString()
+export const nowIsoDateString = () => now().toISOString();
