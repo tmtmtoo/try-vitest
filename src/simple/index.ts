@@ -1,1 +1,1 @@
-export const pow = (n: number) => n * n
+export const pow = (n: number) => n * n;
