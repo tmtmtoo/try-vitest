@@ -1,7 +1,7 @@
 import { test, expect } from "vitest"
-import { pow } from "./simple"
+import { pow } from "."
 
-test("use pow", () => {
+test("simple testing", () => {
     const actual = pow(2);
     const expected = 4
     expect(actual).toStrictEqual(expected)
